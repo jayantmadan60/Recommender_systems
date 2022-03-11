@@ -60,17 +60,20 @@ Clustering
 
 
 ### Model based
+Model-based recommendation systems involve building a model based on the dataset of ratings. In other words, we extract some information from the dataset, and use that as a "model" to make recommendations without having to use the complete dataset every time. 
 
 
 ### Memory Based
 ### User based (Based on similar users) (users in Rows and movies in columns - user with a vector of reviews - finding similar users using cosine)
 Users who are similar to you also liked…” Products are recommended to the user based on the fact that they were purchased / liked by users who are similar to the observed user. If we say that users are similar what does that mean? For example, Jenny and Tom love sci-fi books. When a new sci-fi book appears and Jenny buys that book, since Tom also likes sci-fi books then we can recommend the book that Jenny bought. 
 eg - clubbing the similar users together and recommend them what they haven't watched.
+
 ![image](https://user-images.githubusercontent.com/88995459/157935231-137373b8-47d6-4f2d-9d51-43741bb56d27.png)
 
 ### Item based (movies in Rows and user rating in columns - movies with a vector of reviews - finding similar movies using the ratings using cosine)
 “Users who liked this item also liked…” If John, Robert and Jenny highly rated sci-fi books Fahrenheit 451 and The time machine, for example gave 5 stars, then when Tom buys the book Fahrenheit 451 then the book The time machine is also recommended to him because the system identified books as similar based on user ratings.
 eg - clubbing the 5 star rated movies by averaging the number of reviews gave by all the users.
+
 ![image](https://user-images.githubusercontent.com/88995459/157937305-fce3cb20-f649-475d-b196-714dd652ff4b.png)
 
 
