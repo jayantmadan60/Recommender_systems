@@ -112,7 +112,7 @@ For example, if you buy a burger and fries, you will probably want soda; or a ve
 
 ### Three metrics associated with market basket
 ### Support:
-Within a dataset, i.e. a list of transactions, how many transactions contain item A, so it is just the probability of item A occurring, which we can represent as below. Statistically speaking, it is a frequentist's estimate of the probability.
+Within a dataset, i.e. a list of transactions, how many transactions contain item A, so it is just the probability of item A occurring, which we can represent as below. Statistically speaking, it is a frequent estimate of the probability.
 
 ![image](https://user-images.githubusercontent.com/88995459/157944864-ff7e2f93-be86-49c7-8864-e702a0aafb23.png)
 
